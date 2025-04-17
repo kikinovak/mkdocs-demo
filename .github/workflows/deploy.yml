@@ -1,14 +1,17 @@
----  # ci.yml
+---  # deploy.yml
 
 name: ci
+
 # yamllint disable-line
 on:
   push:
     branches:
       - master
       - main
+
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
