@@ -1,7 +1,7 @@
 ---  # ci.yml
 
 name: ci
-true:
+on:
   push:
     branches:
       - master 
